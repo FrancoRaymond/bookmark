@@ -24,7 +24,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='flex items-center justify-between px-2 sm:px-5 md:px-10 lg:px-24 py-3 fixed top-0 w-full'>
+    <div className='flex items-center justify-between px-2 sm:px-5 md:px-10 lg:px-24 py-3 fixed top-0 w-full bg-white z-50'>
       <a href="#"><img src={logo} alt="" className='' /></a>
       <button onClick={() => setMenuOpen(true)} className='cursor-pointer sm:hidden'><img src={menu} alt="" /></button>
       <nav className={`fixed top-0 left-0 w-screen h-screen bg-slate-700 p-4 flex flex-col ${menuOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300`}>
