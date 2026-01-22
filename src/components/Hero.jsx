@@ -3,7 +3,7 @@ import heroImg from '../assets/images/illustration-hero.svg'
 
 const Hero = () => {
   return (
-    <div className='py-24 flex flex-col-reverse md:flex-row md:gap-3 lg:gap-10'>
+    <div className='pt-24 flex flex-col-reverse md:flex-row md:gap-3 lg:gap-10'>
       <section className='text-center md:text-left flex flex-col gap-6 md:pl-10 lg:pl-24 w-full h-fit md:pt-[5vw]'>
         <h1 className='text-4xl font-bold text-slate-800 xl:text-5xl'>A simple bookmark<br/> manager</h1>
         <p className='text-gray-400 max-w-[450px]'>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
