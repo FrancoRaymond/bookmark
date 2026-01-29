@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import Extensions from './components/Extensions'
 import Faq from './components/Faq'
+import NewsLetterSub from './components/NewsLetterSub'
 import Footer from './components/Footer'
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Features />
       <Extensions />
       <Faq />
+      <NewsLetterSub />
       <Footer />
     </div>
   )
