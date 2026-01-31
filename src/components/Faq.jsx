@@ -29,8 +29,9 @@ const Faq = () => {
                         </div>
                     )
                 })
-            }    
-        </div>  
+            } 
+        </div>
+        <button className='bg-[#5266e3] text-white py-1.5 px-3 rounded-md text-sm cursor-pointer w-fit hidden md:block mt-10'>More info</button>
     </div>
   )
 }
