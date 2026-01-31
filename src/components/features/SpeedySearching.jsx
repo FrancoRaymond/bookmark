@@ -9,7 +9,7 @@ const SpeedySearching = () => {
         </section>
         <section className='text-center md:text-left flex flex-col gap-6 md:pl-10 lg:pl-24 w-full h-fit md:pt-[5vw]'>
             <h1 className='font-semibold text-slate-800 text-2xl'>Intelligent search</h1>
-            <p className='text-gray-400 max-w-[450px]'>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+            <p className='text-gray-400 max-w-[450px] mx-auto md:mx-0'>Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
             <button className='bg-[#5266e3] text-white py-1.5 px-3 rounded-md text-sm cursor-pointer w-fit hidden md:block'>More info</button>
         </section>
     </div>

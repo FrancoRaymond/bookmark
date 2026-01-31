@@ -10,7 +10,7 @@ const SimpleBookmarking = () => {
         </section>
         <section className='text-center md:text-left flex flex-col gap-6 md:pl-10 lg:pl-24 w-full h-fit md:pt-[5vw]'>
             <h1 className='font-semibold text-slate-800 text-2xl'>Bookmark in one click</h1>
-            <p className='text-gray-400 max-w-[450px]'>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how vou manaqe your favourite sites.</p>
+            <p className='text-gray-400 max-w-[450px] mx-auto md:mx-0'>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how vou manaqe your favourite sites.</p>
             <button className='bg-[#5266e3] text-white py-1.5 px-3 rounded-md text-sm cursor-pointer w-fit hidden md:block'>More info</button>
         </section>
     </div>

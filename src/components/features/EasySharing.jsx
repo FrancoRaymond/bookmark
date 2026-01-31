@@ -10,7 +10,7 @@ const EasySharing = () => {
         </section>
         <section className='text-center md:text-left flex flex-col gap-6 md:pl-10 lg:pl-24 w-full h-fit md:pt-[5vw]'>
             <h1 className='font-semibold text-slate-800 text-2xl'>Share your bookmarks</h1>
-            <p className='text-gray-400 max-w-[450px]'>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+            <p className='text-gray-400 max-w-[450px] mx-auto md:mx-0'>Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
             <button className='bg-[#5266e3] text-white py-1.5 px-3 rounded-md text-sm cursor-pointer w-fit hidden md:block'>More info</button>
         </section>
     </div>
